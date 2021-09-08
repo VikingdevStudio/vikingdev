@@ -195,11 +195,18 @@
 }
 
 #header i {
+  opacity: 1;
   font-size: 20px;
   padding: 0 10px 0 10px;
   color: #fff;
 }
-
+@media (max-width: 992px) {
+  #header i {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+}
 .navbar.navbar-light.navbar-expand-md {
   background: rgba(255,255,255, 0.3);
   padding: 20px;

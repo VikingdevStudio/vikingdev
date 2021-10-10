@@ -1,3 +1,6 @@
+html{
+  height: 2000px;
+}
 /* navbar */
 
 #header {
@@ -377,6 +380,7 @@
   padding-top: 50px;
   padding-bottom: 50px;
   transition: 0.5s;
+  overflow: hidden;
   
 }
 
@@ -394,4 +398,13 @@
 
 .proyectos img {
   width: 100%;
+}
+
+@media (max-width: 992px) {
+  .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
 }

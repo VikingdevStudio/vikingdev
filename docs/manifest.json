@@ -2,7 +2,7 @@
   "name": "vikingdev",
   "short_name": "vikingdev",
   "description": "Bienvenidos a VIKINGDEV agencia de publicidad y marketing",
-  "background_color": "#000842",
+  "background_color": "#260044",
   "theme_color": "#260044",
   "orientation": "portrait",
   "display": "standalone",

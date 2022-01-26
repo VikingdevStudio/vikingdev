@@ -488,3 +488,10 @@ iframe {
 .audios audio{
   width: 100%;
 }
+.guiaventa{
+  max-width: 800px;
+  margin: auto;
+}
+.guiaventa h5{
+  color: rgb(36, 135, 180);
+}
